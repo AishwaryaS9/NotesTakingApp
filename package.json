@@ -1,0 +1,18 @@
+{
+  "name": "notesapplication",
+  "version": "1.0.0",
+  "description": "Notes taking application using node cli",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "author": "Aishwarya S",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "nodemon": "^2.0.13",
+    "validator": "^13.6.0",
+    "yargs": "^17.2.1"
+  }
+}
